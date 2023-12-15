@@ -1,11 +1,14 @@
 import axios from "axios";
 
+// const baseURL =  "https://ministore-2pc4.onrender.com/api";
 const baseURL =  "http://localhost:8080/api";
+
 
 const API = axios.create({
   baseURL,
   withCredentials: true,
 });
+
 
 API.interceptors.request.use(
   function (req) {
