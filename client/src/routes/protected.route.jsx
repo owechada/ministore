@@ -9,5 +9,6 @@ export const ProtectedRoute = ({ redirectPath = "/login", children }) => {
     return <Navigate to={redirectPath} state={{ from: location }} replace />;
   }
 
-  return children ? children : <Outlet />;
+  return children ? children : <Outl et />;
 };
+  

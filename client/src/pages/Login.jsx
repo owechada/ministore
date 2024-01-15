@@ -18,12 +18,12 @@ const Login = () => {
   const [redirectToReferrer, setRedirectToReferrer] = useState(false);
   const { state } = useLocation();
 
-  // const login = useGoogleLogin({
-  //   onSuccess: (codeResponse) => handleGoogleLogin(codeResponse),
-  //   onError: (error) => console.log("Login Failed:", error),
-  //   flow: "auth-code",
-  // });
-
+  const login =  ({
+    onSuccess: (codeResponse) => handleGoogleLogin(codeResponse),
+    onError: (error) => console.log("Login Failed:", error),
+    flow: "auth-code",
+  });
+ 
   const {
     register,
     handleSubmit,

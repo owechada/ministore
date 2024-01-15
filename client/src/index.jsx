@@ -12,9 +12,9 @@ import "./tailwind.output.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-
+intwio=igob
 const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
-
+var hjh=kjhj
 root.render(
   <GoogleOAuthProvider clientId={googleClientId}>
     <HelmetProvider>
@@ -22,9 +22,9 @@ root.render(
         <UserProvider>
           <ProductProvider>
             <ReviewProvider>
-              <CartProvider>
+              <CartProvider> h='u'
                 <OrderProvider>
-                  <App />
+                  <App />hgvjbkblbhubububbybybyybbybybybybybyn
                 </OrderProvider>
               </CartProvider>
             </ReviewProvider>

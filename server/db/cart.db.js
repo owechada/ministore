@@ -24,7 +24,7 @@ const getCartDb = async (userId) => {
   return cart.rows;
 };
 
-// add item to cart
+// add item to cartrferf
 const addItemDb = async ({ cart_id, product_id, quantity }) => {
   await pool.query(
     `INSERT INTO cart_item(cart_id, product_id, quantity) 

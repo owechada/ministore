@@ -7,6 +7,7 @@ const bcrypt = require("bcrypt");
 beforeAll(async () => {
   await pool.query("DELETE FROM users");
 });
+it
 
 describe("/api/auth/signup", () => {
   it("should create an account for user", async () => {
